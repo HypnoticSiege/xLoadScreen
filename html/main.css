@@ -4,7 +4,7 @@
 }
 
 .bg {
-    background-color: #131e29;
+    background-color: #142b42;
 }
 
 .container {
@@ -16,13 +16,8 @@
 
 .loadbar {
     width: 100%;
-    background-color: #eee;
+    background-color: rgb(61, 61, 61);
     height: 20px;
-
-    margin-left: 2px;
-    margin-right: 3px;
-    margin-top: 5px;
-    margin-bottom: 5px;
 
     overflow: hidden;
 
@@ -33,9 +28,9 @@
 }
 
 .progressbar {
-    width: 10%;
-    background-color: #FC0349;
+    width: 0%;
+    background-color: #1b79b8;
     height: 20px;
     position: absolute;
-    left: 10%;
+    left: 0%;
 }
