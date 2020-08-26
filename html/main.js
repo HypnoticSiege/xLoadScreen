@@ -8,8 +8,8 @@ const handlers = {
     },
 
     initFunctionInvoking(data) {
-        document.querySelector('.progressBar').style.left = '0%';
-        document.querySelector('.progressBar').style.width = ((data.idx / count) * 100) + '%';
+        document.querySelector('.progress').style.left = '0%';
+        document.querySelector('.progress').style.width = ((data.idx / count) * 100) + '%';
     },
 
     startDataFileEntries(data) {
@@ -18,8 +18,8 @@ const handlers = {
 
     performMapLoadFunction(data) {
         ++thisCount;
-        document.querySelector('.progressBar').style.left = '0%';
-        document.querySelector('.progressBar').style.width = ((thisCount / count) * 100) + '%';
+        document.querySelector('.progress').style.left = '0%';
+        document.querySelector('.progress').style.width = ((thisCount / count) * 100) + '%';
     },
 };
 
