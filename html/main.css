@@ -1,8 +1,3 @@
-* {
-    color: #eee;
-    font-size: 30px;
-}
-
 .bg {
     background-color: #142b42;
 }
@@ -14,7 +9,7 @@
     transform: translate(-50%, -50%);
 }
 
-.loadbar {
+.loadscreenbar {
     width: 100%;
     background-color: rgb(61, 61, 61);
     height: 20px;
@@ -27,7 +22,7 @@
     display: block;
 }
 
-.progressbar {
+.progress {
     width: 0%;
     background-color: #1b79b8;
     height: 20px;
